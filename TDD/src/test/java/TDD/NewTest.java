@@ -12,7 +12,7 @@ public class NewTest {
 	String title;
 	 @BeforeTest
 	  public void beforeTest() {
-		  System.setProperty("webdriver.gecko.driver", "E:\\geckodriver\\geckodriver.exe");
+		  System.setProperty("webdriver.gecko.driver", "usr\\local\\bin\\geckodriver\\geckodriver.exe");
 		  x= new FirefoxDriver();
 		  x.get("http://18.136.172.133:8090/BloggingApplication-0.0.1-SNAPSHOT/");
 		  
